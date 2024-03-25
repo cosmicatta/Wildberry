@@ -56,6 +56,34 @@ html.theme-light::before {
     --text-link: var(--wildberry-secondary-alt);
 }
 
+/* stuff i added */
+/* make the user box in bottom left corner a gradient like in the screenshots on the main Wildberry page */
+.theme-dark .container_ca50b9 { background: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); }
+/* make non-premium profiles look purdy */
+.userProfileInnerThemedNonPremium__3d0a6 { background: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); }
+    /* #f3bd86 makes it look like a pop-tart! /*
+/* cool role box color and shapes!! */
+.rolePill_ee1aa1 { background-color: var(--background-mentioned-side); }
+.role__631a3 { align-items: center;
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+    background: #00ffb7;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 22px;
+    margin: 0 4px 4px 0;
+    padding: 5px; 
+}
+/* new messages bar since the color isn't changing */
+.newMessagesBar__8b6d7 {
+    height: 32px;
+    top: 0;
+    border-radius: 0 0 8px 8px;
+    background-color: #0966b2;
+        /* colored like the blue pop-tart logo */
+    box-shadow: var(--elevation-low);
+}
 /* Weird Discord Possesive */
 .theme-dark .pageWrapper-1PgVDX {
   background-color: var(--background-primary);
