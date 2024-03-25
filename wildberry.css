@@ -68,7 +68,6 @@ html.theme-light::before {
     display: flex;
     font-size: 12px;
     font-weight: 500;
-    background: var(--background-mentioned-side) ;
     border-radius: 20px;
     box-sizing: border-box;
     height: 22px;
