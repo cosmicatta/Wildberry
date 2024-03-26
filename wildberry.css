@@ -97,11 +97,11 @@ html.theme-light::before {
 
 /* margin between sidebar and channel box */
 .erd_scroll_detection_container_animation_active {
+    padding: 2.5px;
     -webkit-animation-duration: 0.1s;
     animation-duration: 0.1s;
     -webkit-animation-name: erd_scroll_detection_container_animation;
     animation-name: erd_scroll_detection_container_animation;
-    padding: 2.5px;
 }
 
 /* new messages bar since the color isn't changing */
