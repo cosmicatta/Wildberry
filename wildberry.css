@@ -98,6 +98,7 @@ html.theme-light::before {
 /* margin between sidebar and channel box */
 
 element.style {
+    padding: 2.5px;
     visibility: hidden;
     display: inline;
     width: 0px;
@@ -105,7 +106,6 @@ element.style {
     z-index: -1;
     overflow: hidden;
     margin: 0px;
-    padding: 2.5px;
 }
 
 /* new messages bar since the color isn't changing */
