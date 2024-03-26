@@ -75,8 +75,10 @@ html.theme-light::before {
     margin: 0 4px 4px 0;
     padding: 5px; 
 }
+
 /* round channel box corners*/
 .chat__52833 {
+    border-radius: 10px;
     min-width: 0;
     min-height: 0;
     display: flex;
@@ -85,8 +87,8 @@ html.theme-light::before {
     overflow: hidden;
     background: var(--bg-overlay-chat,var(--background-primary));
     flex: 1 1 auto;
-    border-radius: 10px;
 }
+
 /* round sidebar corners */
 .platform-win .sidebar_ded4b5 {
     border-radius: 10px;
@@ -101,6 +103,7 @@ html.theme-light::before {
     animation-name: erd_scroll_detection_container_animation;
     padding: 2.5px;
 }
+
 /* new messages bar since the color isn't changing */
 .newMessagesBar__8b6d7 {
     height: 32px;
