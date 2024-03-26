@@ -96,7 +96,17 @@ html.theme-light::before {
 }
 
 /* margin between sidebar and channel box */
-<div class="erd_scroll_detection_container erd_scroll_detection_container_animation_active" style="visibility: hidden;display: inline;width: 0px;height: 0px;z-index: -1;overflow: hidden;margin: 0px;padding: 2.5px;"><div dir="ltr" class="erd_scroll_detection_container" style="position: absolute; flex: 0 0 auto; overflow: hidden; z-index: -1; visibility: hidden; width: 100%; height: 100%; left: 0px; top: 0px;"><div class="erd_scroll_detection_container" style="position: absolute; flex: 0 0 auto; overflow: hidden; z-index: -1; visibility: hidden; inset: -18px -17px -17px -18px;"><div style="position: absolute; flex: 0 0 auto; overflow: scroll; z-index: -1; visibility: hidden; width: 100%; height: 100%;"><div style="position: absolute; left: 0px; top: 0px; width: 952px; height: 839px;"></div></div><div style="position: absolute; flex: 0 0 auto; overflow: scroll; z-index: -1; visibility: hidden; width: 100%; height: 100%;"><div style="position: absolute; width: 200%; height: 200%;"></div></div></div></div></div>
+
+element.style {
+    visibility: hidden;
+    display: inline;
+    width: 0px;
+    height: 0px;
+    z-index: -1;
+    overflow: hidden;
+    margin: 0px;
+    padding: 2.5px;
+}
 
 /* new messages bar since the color isn't changing */
 .newMessagesBar__8b6d7 {
