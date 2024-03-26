@@ -96,15 +96,12 @@ html.theme-light::before {
 }
 
 /* margin between sidebar and channel box */
-..erd_scroll_detection_container {
-    padding: 2.5px;
-    visibility: hidden;
-    display: inline;
-    width: 0px;
-    height: 0px;
-    z-index: -1;
-    overflow: hidden;
-    margin: 0px;
+.erd_scroll_detection_container_animation_active {
+    -webkit-animation-duration: 0.1s;
+    animation-duration: 0.1s;
+    -webkit-animation-name: erd_scroll_detection_container_animation;
+    animation-name: erd_scroll_detection_container_animation;
+    padding: 2.5px !important;
 }
 
 /* new messages bar since the color isn't changing */
