@@ -68,6 +68,13 @@ html.theme-light::before {
 /* make non-premium profiles look purdy */
 .userProfileInnerThemedNonPremium__3d0a6 { background: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); }
     /* #f3bd86 makes it look like a wildberry pop-tart! /*
+/* color for non-premium dm profiles, i think? */
+.userPanelOuter__880e5.userProfileOuterUnthemed__48723.profileColors__2e2f0.theme-dark {
+    background: linear-gradient(326deg, #a4508b, #5f0a87);
+}
+.userPanelInnerThemed__1804b {
+    /* background: linear-gradient(#f40174,#f40174); */
+}
 /* cool role box color!! */
 .rolePill_ee1aa1 { background-color: var(--background-mentioned-side) ; }
 /* and cool shape!! */
@@ -80,10 +87,6 @@ html.theme-light::before {
     height: 22px;
     margin: 0 4px 4px 0;
     padding: 5px; 
-}
-/* color for non-premium dm profiles, i think? */
-.userPanelOuter__880e5.userProfileOuterUnthemed__48723.profileColors__2e2f0.theme-dark {
-    background: linear-gradient(326deg, #a4508b, #5f0a87);
 }
 
 /* round chat box corners*/
