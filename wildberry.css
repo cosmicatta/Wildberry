@@ -96,8 +96,7 @@ html.theme-light::before {
 }
 
 /* margin between sidebar and channel box */
-
-element.style {
+erd_scroll_detection_container erd_scroll_detection_container_animation_active.style {
     padding: 2.5px;
     visibility: hidden;
     display: inline;
