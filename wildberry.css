@@ -104,6 +104,11 @@ html.theme-light::before {
     padding: 2.5px !important;
 }
 
+/* making the icons the colors they should be (wildberry-svg) */
+.clickable_d23a1a .icon__4cb88 {
+    color: none;
+}
+
 /* new messages bar since the color isn't changing */
 .newMessagesBar__8b6d7 {
     height: 32px;
