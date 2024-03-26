@@ -59,6 +59,12 @@ html.theme-light::before {
 /* stuff i added */
 /* make the user box in bottom left corner a gradient like in the screenshots on the main Wildberry page */
 .theme-dark .container_ca50b9 { background: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); }
+
+/* make the mic, headphones, and gear the proper color */
+.lottieIcon__9d8ab :not(defs *)[fill][fill-opacity] {
+    fill: var(--wildberry-svg,var(--interactive-normal));
+}
+
 /* make non-premium profiles look purdy */
 .userProfileInnerThemedNonPremium__3d0a6 { background: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); }
     /* #f3bd86 makes it look like a pop-tart! /*
