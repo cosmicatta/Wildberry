@@ -82,7 +82,7 @@ html.theme-light::before {
     padding: 5px; 
 }
 /* color for non-premium dm profiles, i think? */
-.userPanelInnerThemed__1804b {
+.userPanelOuter__880e5.userProfileOuterUnthemed__48723.profileColors__2e2f0.theme-dark {
     background: linear-gradient(326deg, #a4508b, #5f0a87);
 }
 
