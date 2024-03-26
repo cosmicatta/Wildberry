@@ -81,6 +81,10 @@ html.theme-light::before {
     margin: 0 4px 4px 0;
     padding: 5px; 
 }
+/* color for non-premium dm profiles, i think? */
+.userPanelInnerThemed__1804b {
+    background: linear-gradient(326deg, #a4508b, #5f0a87);
+}
 
 /* round chat box corners*/
 .chat__52833 {
