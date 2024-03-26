@@ -56,10 +56,10 @@ html.theme-light::before {
     --text-link: var(--wildberry-secondary-alt);
 }
 
-/* stuff i added */
-/* make the user box in bottom left corner a gradient like in the screenshots on the main Wildberry page */
-.theme-dark .container_ca50b9 { background: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); }
+/* stuff i added (mainly to match the screenshots on the main Wildberry page)*/
 
+/* make the user box in bottom left corner a gradient*/
+.theme-dark .container_ca50b9 { background: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); }
 /* make the mic, headphones, and gear the proper color */
 .lottieIcon__9d8ab :not(defs *)[fill][fill-opacity] {
     fill: var(--wildberry-svg,var(--interactive-normal));
@@ -67,7 +67,7 @@ html.theme-light::before {
 
 /* make non-premium profiles look purdy */
 .userProfileInnerThemedNonPremium__3d0a6 { background: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); }
-    /* #f3bd86 makes it look like a pop-tart! /*
+    /* #f3bd86 makes it look like a wildberry pop-tart! /*
 /* cool role box color!! */
 .rolePill_ee1aa1 { background-color: var(--background-mentioned-side) ; }
 /* and cool shape!! */
@@ -82,7 +82,7 @@ html.theme-light::before {
     padding: 5px; 
 }
 
-/* round channel box corners*/
+/* round chat box corners*/
 .chat__52833 {
     border-radius: 10px;
     min-width: 0;
@@ -94,14 +94,12 @@ html.theme-light::before {
     background: var(--bg-overlay-chat,var(--background-primary));
     flex: 1 1 auto;
 }
-
 /* round sidebar corners */
 .platform-win .sidebar_ded4b5 {
     border-radius: 10px;
     overflow: hidden;
 }
-
-/* margin between sidebar and channel box */
+/* margin between sidebar and chat box */
 .erd_scroll_detection_container_animation_active {
     -webkit-animation-duration: 0.1s;
     animation-duration: 0.1s;
@@ -110,12 +108,12 @@ html.theme-light::before {
     padding: 2.5px !important;
 }
 
-/* making the icons the colors they should be (wildberry-svg) */
+/* making the icons at the top right the colors they should be */
 .clickable_d23a1a .icon__4cb88 {
-    color: none;
+    color: var(--wildberry-svg);
 }
 
-/* new messages bar since the color isn't changing */
+/* color for the "new messages bar" */
 .newMessagesBar__8b6d7 {
     height: 32px;
     top: 0;
