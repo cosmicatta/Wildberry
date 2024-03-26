@@ -73,7 +73,7 @@ html.theme-light::before {
     background: linear-gradient(326deg, #a4508b, #5f0a87);
 }
 .userPanelInnerThemed__1804b {
-    /* background: linear-gradient(#f40174,#f40174); */
+    background: #ffffff00;
 }
 /* cool role box color!! */
 .rolePill_ee1aa1 { background-color: var(--background-mentioned-side) ; }
