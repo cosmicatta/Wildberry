@@ -59,26 +59,26 @@ html.theme-light::before {
 /* stuff i added (mainly to match the screenshots on the main Wildberry page)*/
 
 /* make the user box in bottom left corner a gradient*/
-.theme-dark .container_ca50b9 { background: linear-gradient(-326deg, #a4508b 0%, #5f0a87 74%); }
+.theme-dark .container_debb33 { background: linear-gradient(-326deg, #a4508b 0%, #5f0a87 74%); }
 /* make the mic, headphones, and gear the proper color */
-.lottieIcon__9d8ab :not(defs *)[fill][fill-opacity] {
+.lottieIcon_c7076c :not(defs *)[fill][fill-opacity] {
     fill: var(--wildberry-svg,var(--interactive-normal));
 }
 
 /* make non-premium profiles look purdy */
-.userProfileInnerThemedNonPremium__3d0a6 { background: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); }
+.userProfileInnerThemedNonPremium_ed9022 { background: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); }
     /* #f3bd86 makes it look like a wildberry pop-tart! /*
 /* color for non-premium dm profiles, i think? */
-.userPanelOuter__880e5.userProfileOuterUnthemed__48723.profileColors__2e2f0.theme-dark {
+.userPanelOuter_eb00b1.userProfileOuterUnthemed_e14365.profileColors_ac6ab4.theme-dark {
     background: linear-gradient(326deg, #a4508b, #5f0a87);
 }
-.userPanelInnerThemed__1804b {
+.userPanelInnerThemed_c2aed9 {
     background: #ffffff00;
 }
 /* cool role box color!! */
-.rolePill_ee1aa1 { background-color: var(--background-mentioned-side) ; }
+.rolePill_f50ff5 { background-color: var(--background-mentioned-side) ; }
 /* and cool shape!! */
-.role__631a3 { align-items: center;
+.role_d81130 { align-items: center;
     display: flex;
     font-size: 12px;
     font-weight: 500;
@@ -102,7 +102,7 @@ html.theme-light::before {
     flex: 1 1 auto;
 }
 /* round sidebar corners */
-.platform-win .sidebar_ded4b5 {
+.platform-win .sidebar_e031be {
     border-radius: 10px;
     overflow: hidden;
 }
@@ -116,12 +116,12 @@ html.theme-light::before {
 }
 
 /* making the icons at the top right the colors they should be */
-.clickable_d23a1a .icon__4cb88 {
+.clickable_ce0925 .icon_ae0b42 {
     color: var(--wildberry-svg);
 }
 
 /* color for the "new messages bar" */
-.newMessagesBar__8b6d7 {
+.newMessagesBar__8b272 {
     height: 32px;
     top: 0;
     border-radius: 0 0 8px 8px;
