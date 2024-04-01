@@ -119,6 +119,9 @@ html.theme-light::before {
 .clickable_ce0925 .icon_ae0b42 {
     color: var(--wildberry-svg);
 }
+.selected__1fc53 .icon_ae0b42 {
+    color: var(--interactive-active) !important;
+}
 
 /* color for the "new messages bar" */
 .newMessagesBar__8b272 {
