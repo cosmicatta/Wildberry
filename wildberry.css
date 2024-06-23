@@ -62,7 +62,7 @@ html.theme-light::before {
     flex: 0 0 auto;
     z-index: 2;
 }
-.theme-dark [class*=container] { background: 0; }
+[class*=panels_] [class*=container_] {background: 0;}
 /* make the mic, headphones, and gear the proper color */
 [class*=lottieIcon_] :not(defs *)[fill][fill-opacity] {
     fill: var(--wildberry-svg,var(--interactive-normal));
