@@ -125,9 +125,9 @@ html.theme-light::before {
 [class*=selected_] [class*=icon_] {
     color: var(--interactive-active) !important;
 }
-/*sidebar hashtag and semi-circle color */
+/*sidebar hashtag color */
 [class*=unreadImportant_] { background-color: var(--wildberry-svg)}
-[class*=modeUnreadImportant_d8bfb3] [class*=icon_d8bfb3b3] {var(--wildberry-svg)}
+[class*=modeUnreadImportant_] [class*=icon_] {color: var(--wildberry-svg)}
 
 /* color for the "new messages bar" */
 [class*=newMessagesBar_] {
