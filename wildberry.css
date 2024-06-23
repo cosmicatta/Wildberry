@@ -57,28 +57,31 @@ html.theme-light::before {
 }
 
 /* stuff i added (mainly to match the screenshots on the main Wildberry page)*/
-
-/* make the user box in bottom left corner a gradient*/
-.theme-dark .container_b2ca13 { background: linear-gradient(-326deg, #a4508b 0%, #5f0a87 74%); }
+[class*=panels_] {
+    background: linear-gradient(-326deg, #a4508b 0%, #5f0a87 74%);
+    flex: 0 0 auto;
+    z-index: 2;
+}
+.theme-dark [class*=container] { background: 0; }
 /* make the mic, headphones, and gear the proper color */
-[class*=.lottieIcon] :not(defs *)[fill][fill-opacity] {
+[class*=lottieIcon_] :not(defs *)[fill][fill-opacity] {
     fill: var(--wildberry-svg,var(--interactive-normal));
 }
 
 /* make non-premium profiles look purdy */
-[class*=.userProfileInnerThemedNonPremium] { background: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); }
+[class*=userProfileInnerThemedNonPremium_] { background: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); }
     /* #f3bd86 makes it look like a wildberry pop-tart! /*
 /* color for non-premium dm profiles, i think? */
-[class*=.userPanelOuter] {
+[class*=userPanelOuter_] {
     background: linear-gradient(326deg, #a4508b, #5f0a87);
 }
-[class*=.userPanelInnerThemed] {
+[class*=userPanelInnerThemed_] {
     background: #ffffff00;
 }
 /* cool role box color!! */
-[class*=.rolePill] { background-color: var(--background-mentioned-side) ; }
-/* and cool shape!! */
-[class*=.role] { align-items: center;
+[class*=rolePill_] { background-color: var(--background-mentioned-side) ; }
+/* and nice shape!! */
+[class*=role_] { align-items: center;
     display: flex;
     font-size: 12px;
     font-weight: 500;
@@ -90,7 +93,7 @@ html.theme-light::before {
 }
 
 /* round chat box corners*/
-.chat__52833 {
+[class*=chat_] {
     border-radius: 10px;
     min-width: 0;
     min-height: 0;
@@ -102,7 +105,7 @@ html.theme-light::before {
     flex: 1 1 auto;
 }
 /* round sidebar corners */
-.platform-win .sidebar_e031be {
+.platform-win [class*=sidebar_] {
     border-radius: 10px;
     overflow: hidden;
 }
@@ -116,15 +119,15 @@ html.theme-light::before {
 }
 
 /* making the icons at the top right the colors they should be */
-.clickable_ce0925 .icon_ae0b42 {
+[class*=clickable_] [class*=icon_] {
     color: var(--wildberry-svg);
 }
-.selected__1fc53 .icon_ae0b42 {
+[class*=selected_] [class*=icon_] {
     color: var(--interactive-active) !important;
 }
 
 /* color for the "new messages bar" */
-.newMessagesBar__8b272 {
+[class*=newMessagesBar_] {
     height: 32px;
     top: 0;
     border-radius: 0 0 8px 8px;
