@@ -57,12 +57,9 @@ html.theme-light::before {
 }
 
 /* stuff i added (mainly to match the screenshots on the main Wildberry page)*/
-[class*=panels_] {
-    background: linear-gradient(-326deg, #a4508b 0%, #5f0a87 74%);
-    flex: 0 0 auto;
-    z-index: 2;
-}
-[class*=panels_] [class*=container_] {background: 0;}
+
+/* make the user box in bottom left corner a gradient*/
+[class*=panels_] [class*=container_] {background: linear-gradient(-326deg, #a4508b 0%, #5f0a87 74%);}
 /* make the mic, headphones, and gear the proper color */
 [class*=lottieIcon_] :not(defs *)[fill][fill-opacity] {
     fill: var(--wildberry-svg,var(--interactive-normal));
