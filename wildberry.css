@@ -61,24 +61,24 @@ html.theme-light::before {
 /* make the user box in bottom left corner a gradient*/
 .theme-dark .container_b2ca13 { background: linear-gradient(-326deg, #a4508b 0%, #5f0a87 74%); }
 /* make the mic, headphones, and gear the proper color */
-.lottieIcon_c7076c :not(defs *)[fill][fill-opacity] {
+[class*=.lottieIcon] :not(defs *)[fill][fill-opacity] {
     fill: var(--wildberry-svg,var(--interactive-normal));
 }
 
 /* make non-premium profiles look purdy */
-.userProfileInnerThemedNonPremium_ed9022 { background: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); }
+[class*=.userProfileInnerThemedNonPremium] { background: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); }
     /* #f3bd86 makes it look like a wildberry pop-tart! /*
 /* color for non-premium dm profiles, i think? */
-.userPanelOuter_eb00b1.userProfileOuterUnthemed_e14365.profileColors_ac6ab4.theme-dark {
+[class*=.userPanelOuter] {
     background: linear-gradient(326deg, #a4508b, #5f0a87);
 }
-.userPanelInnerThemed_c2aed9 {
+[class*=.userPanelInnerThemed] {
     background: #ffffff00;
 }
 /* cool role box color!! */
-.rolePill_f50ff5 { background-color: var(--background-mentioned-side) ; }
+[class*=.rolePill] { background-color: var(--background-mentioned-side) ; }
 /* and cool shape!! */
-.role_d81130 { align-items: center;
+[class*=.role] { align-items: center;
     display: flex;
     font-size: 12px;
     font-weight: 500;
