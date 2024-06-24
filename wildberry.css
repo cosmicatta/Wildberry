@@ -123,6 +123,7 @@ html.theme-light::before {
 [class*=sidebar] [class*=selected_] [class*=icon_] { color: var(--interactive-active) !important; }
 [class*=unreadImportant_] { background-color: var(--wildberry-svg);}
 [class*=modeUnreadImportant_] [class*=icon_] {color: var(--wildberry-svg);}
+[class*=modeUnreadImportant_]:hover [class*=icon_] { color: var(--wildberry-svg);}
 
 /* color for the "new messages bar" */
 [class*=newMessagesBar_] {
@@ -171,7 +172,7 @@ html.theme-light::before {
 .theme-dark .icon-22AiRD {
   color: var(--wildberry-svg);
 }
-.theme-dark .premiumIcon-1rDbWQ {
+.theme-dark [class*=premiumIcon] {
     color: #ff73fa;
 }
 
