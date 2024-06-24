@@ -116,15 +116,13 @@ html.theme-light::before {
 }
 
 /* making the icons at the top right the colors they should be */
-[class*=clickable_] [class*=icon_] {
-    color: var(--wildberry-svg);
-}
-[class*=selected_] [class*=icon_] {
-    color: var(--interactive-active) !important;
-}
+[class*=clickable_] [class*=icon_] { color: var(--wildberry-svg); }
+[class*=toolbar] [class*=selected_] [class*=icon_] { color: var(--interactive-active) !important;}
+
 /*sidebar hashtag color */
-[class*=unreadImportant_] { background-color: var(--wildberry-svg)}
-[class*=modeUnreadImportant_] [class*=icon_] {color: var(--wildberry-svg)}
+[class*=sidebar] [class*=selected_] [class*=icon_] { color: var(--interactive-active) !important; }
+[class*=unreadImportant_] { background-color: var(--wildberry-svg);}
+[class*=modeUnreadImportant_] [class*=icon_] {color: var(--wildberry-svg);}
 
 /* color for the "new messages bar" */
 [class*=newMessagesBar_] {
@@ -138,7 +136,7 @@ html.theme-light::before {
 /* ok done */
 
 /* Weird Discord Possesive */
-.theme-dark .pageWrapper-1PgVDX {
+.theme-dark [class*=pageWrapper] {
   background-color: var(--background-primary);
 }
 
@@ -155,7 +153,7 @@ html.theme-light::before {
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 { background-color: var(--background-secondary); }
 
 /* Mention autocompletion in chat box */
-.theme-dark .autocomplete-1vrmpx { background-color: var(--background-tertiary) }
+.theme-dark [class*=autocomplete_] { background-color: var(--background-tertiary); }
 .theme-dark .selected-1Tbx07 { background-color: var(--background-secondary); }
 
 .theme-dark .item-2hkk8m {
@@ -180,28 +178,28 @@ html.theme-light::before {
 .theme-dark .icon-22AiRD {
   color: var(--wildberry-svg);
 }
-.theme-dark .premiumIcon-1rDbWQ {
+.theme-dark [class*=premiumIcon] {
     color: #ff73fa;
 }
 
-.theme-dark .ownerIcon-2NH9FM {
+.theme-dark [class*=ownerIcon] {
     color: #faa61a;
 }
 /* Discord mentions*/
-.theme-dark .mentioned-xhSam7:before {
+.theme-dark [class*=mentioned]:before {
     background-color: var(--wildberry-mention);
 }
 
-.theme-dark .mentioned-xhSam7 .mention {
-    background-color: var(--wildberry-mention);
+.theme-dark [class*=mentioned] [class*=wrapper] {
+    background-color: #97004c3d !important;
 }
 
-.theme-dark .wrapper-3WhCwL {
-  color: var(--background-secondary-alt);
+.theme-dark [class*=mentioned] {
+  background: var(--background-secondary);
 }
 
-.interactive:hover {
-  background-color: var(--wildberry-tertiary);
+[class*=message_][class*=mentioned_]:hover {
+  background: var(--wildberry-tertiary) !important;
 }
 /* New Messages */
 
