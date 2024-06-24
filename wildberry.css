@@ -154,13 +154,6 @@ html.theme-light::before {
 
 /* Mention autocompletion in chat box */
 .theme-dark [class*=autocomplete_] { background-color: var(--background-tertiary); }
-.theme-dark .selected-1Tbx07 { background-color: var(--background-secondary); }
-
-.theme-dark .item-2hkk8m {
-    background-color: var(--header-primary);
-}
-
-
 .theme-dark .focused-3afm-j {
   background-color: var(--background-mentioned-side);
 }
@@ -178,7 +171,7 @@ html.theme-light::before {
 .theme-dark .icon-22AiRD {
   color: var(--wildberry-svg);
 }
-.theme-dark [class*=premiumIcon] {
+.theme-dark .premiumIcon-1rDbWQ {
     color: #ff73fa;
 }
 
@@ -201,6 +194,7 @@ html.theme-light::before {
 [class*=message_][class*=mentioned_]:hover {
   background: var(--wildberry-tertiary) !important;
 }
+
 /* New Messages */
 
 .theme-dark .newMessagesBar-265mhP {
@@ -244,26 +238,26 @@ html.theme-light::before {
     fill: var(--wildberry-red);
 }
 /* Mention Badge*/
-.theme-dark .numberBadge-2s8kKX {
+.theme-dark [class*=.numberBadge] {
     background-color: var(--wildberry-red) !important;
 }
 /* Search Modal */
-.theme-dark .open-6_Y_aH {
+.theme-dark [class*=.open] {
     background-color: var(--background-secondary);
 }
 
 /* Quote */
-.theme-dark .blockquoteContainer-U5TVEi {
+.theme-dark [class*=.blockquoteContainer] {
     background-color: var(--background-tertiary);
     
 }
 
-.theme-dark .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
+.theme-dark [class*=blockquoteContainer] [class*=blockquoteDivider] {
   background-color: var(--wildberry-secondary-alt);
 }
 
 /* New Reply*/
-.repliedMessage-VokQwo:before {
+[class*=repliedMessage]:before {
     border-color: var(--wildberry-secondary-alt);
 }
 
@@ -273,7 +267,7 @@ html.theme-light::before {
 }
 
 /* Folders are ugly */
-.theme-dark .folder-21wGz3 {
+.theme-dark [class*=.folder_] {
   background-color: var(--wildberry-secondary-alt);
 }
 
@@ -289,25 +283,25 @@ html.theme-light::before {
 
 /* RPC */
 
-.theme-dark .headerPlaying-j0WQBV {
+.theme-dark [class*=.headerPlaying] {
   background-color: var(--background-tertiary);
 }
 
-.theme-dark .lookFilled-1Gx00P {
-  background-color: var(--wildberry-accent-color);
+.theme-dark [class*=lookFilled] {
+  background-color: var(--wildberry-tertiary);
 }
 
-.theme-dark .colorGrey-2DXtkV {
+.theme-dark [class*=.colorGrey] {
   background-color: var(--wildberry-less-hot);
 }
 
 /* Bot Tag */
-.botTagRegular-2HEhHi {
+[class*=botTagRegular] {
   transition: .5s;
   background: rgba(114,137,218,0.1);
   color: #7289da;
 }
-.botTagRegular-2HEhHi:hover {
+[class*=botTagRegular]:hover {
   transition: .5s;
   background: #7289da;
   color: #fff;
