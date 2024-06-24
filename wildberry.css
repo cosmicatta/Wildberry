@@ -134,6 +134,10 @@ html.theme-light::before {
         /* colored like the blue pop-tart logo */
     box-shadow: var(--elevation-low);
 }
+
+/* slash command autocomplete header */
+[class*=categorySection_] [class*=categoryHeader_] { background-color: var(--background-secondary);}
+
 /* ok done */
 
 /* Weird Discord Possesive */
