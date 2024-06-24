@@ -159,6 +159,7 @@ html.theme-light::before {
 
 /* Mention autocompletion in chat box */
 .theme-dark [class*=autocomplete_] { background-color: var(--background-tertiary); }
+[class*=clickable][aria-selected=true]>[class*=base] { background-color: var(--wildberry-secondary); }
 [class*=autocompleteRow_]:hover [class*=base_]:hover { background-color: var(--wildberry-secondary); }
 
 
