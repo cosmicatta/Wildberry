@@ -138,6 +138,8 @@ html.theme-light::before {
 /* slash command autocomplete header */
 [class*=categorySection_] [class*=categoryHeader_] { background-color: var(--background-secondary);}
 
+/* embed button changes color when hovered */
+[class*=lookFilled][class*=colorPrimary]:hover { background-color: var(--wildberry-secondary); }
 /* ok done */
 
 /* Weird Discord Possesive */
@@ -192,11 +194,11 @@ html.theme-light::before {
 }
 
 .theme-dark [class*=mentioned] {
-  background: var(--background-secondary);
+  background: #4c007c75;
 }
 
 [class*=message_][class*=mentioned_]:hover {
-  background: var(--wildberry-tertiary) !important;
+  background: #35005873 !important;
 }
 
 /* New Messages */
